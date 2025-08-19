@@ -1,4 +1,5 @@
- # -------------------------------
+Disconnect-MgGraph
+# -------------------------------
 # Step 0: Install required modules if missing
 # -------------------------------
 $modules = @("Microsoft.Graph", "ExchangeOnlineManagement")
@@ -145,3 +146,4 @@ $reportOrdered | Export-Csv -Path $exportPath -NoTypeInformation -Encoding UTF8
 # -------------------------------
 Write-Host "`n✅ Export complete!" -ForegroundColor Green
 Write-Host "CSV file saved to: $exportPath" -ForegroundColor Cyan
+
